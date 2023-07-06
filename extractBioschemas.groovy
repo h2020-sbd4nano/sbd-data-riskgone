@@ -38,7 +38,6 @@ for (page in pages) {
 turtle = rdf.asTurtle(kg);
 
 println "#" + rdf.size(kg) + " triples detected in the JSON-LD"
-println turtle
 
 sparql = """
 PREFIX schema: <https://schema.org/>
