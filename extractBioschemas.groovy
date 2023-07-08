@@ -2,25 +2,19 @@
 //
 // GPL v3
 
-@Grab(group='io.github.egonw.bacting', module='managers-rdf', version='0.3.3')
-@Grab(group='io.github.egonw.bacting', module='managers-ui', version='0.3.3')
-@Grab(group='io.github.egonw.bacting', module='net.bioclipse.managers.jsoup', version='0.3.3')
+@Grab(group='io.github.egonw.bacting', module='managers-rdf', version='0.3.4')
+@Grab(group='io.github.egonw.bacting', module='managers-ui', version='0.3.4')
+@Grab(group='io.github.egonw.bacting', module='net.bioclipse.managers.jsoup', version='0.3.4')
+@Grab(group='io.github.egonw.bacting', module='net.bioclipse.managers.find', version='0.3.4')
 
 bioclipse = new net.bioclipse.managers.BioclipseManager(".");
 rdf = new net.bioclipse.managers.RDFManager(".");
 jsoup = new net.bioclipse.managers.JSoupManager(".");
+sitemap = new net.bioclipse.managers.SitemapManager(".");
 
 kg = rdf.createInMemoryStore()
 
-// the next should be extracted from the sitemap.xml. This is just 6 of 34
-pages = [
-  "https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/overview/9e1d426c90.html",
-  "https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/overview/9a9ad3fe96.html",
-  "https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/overview/1687649488.html",
-  "https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/overview/5d2e680699.html",
-  "https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/overview/0a77bd4afd.html",
-  "https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/overview/51cbf2d4ae.html"
-]
+pages = sitemap.parse("https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/sitemap.xml")
 
 for (page in pages) {
   htmlContent = bioclipse.download(page)
