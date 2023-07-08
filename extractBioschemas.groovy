@@ -66,7 +66,7 @@ for (i=1;i<=results.rowCount;i++) {
   println "  dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;"
   if (results.get(i, "name") != null) println "  rdfs:label \"${results.get(i, "name")}\"@en ;"
   if (results.get(i, "description") != null) println "  dc:description \"${results.get(i, "description")}\"@en ;"
-  if (results.get(i, "license") != null) println "  dct:license <${results.get(i, "license")}> ;"
+  if (results.get(i, "license") != null && results.get(i, "license").length() > 0) println "  dct:license <${results.get(i, "license")}> ;"
   println "  foaf:page <${results.get(i, "url")}> ."
   println ""
 }
