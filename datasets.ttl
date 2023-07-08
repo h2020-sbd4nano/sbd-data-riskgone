@@ -1,4 +1,4 @@
-#257 triples detected in the JSON-LD
+#1087 triples detected in the JSON-LD
 @prefix dc:    <http://purl.org/dc/elements/1.1/> .
 @prefix dct:   <http://purl.org/dc/terms/> .
 @prefix foaf:  <http://xmlns.com/foaf/0.1/> .
@@ -19,11 +19,101 @@
   dct:license <http://onlinelibrary.wiley.com/termsAndConditions#am> ;
   foaf:page <https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fsmll.201900510> .
 
+<file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1007/s11224-021-01869-w> a sbd:Dataset ;
+  dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
+  rdfs:label "Using the Isalos platform to develop a QSAR model that predicts metal oxide toxicity utilizing facet-based electronic, image analysis-based, and periodic table derived properties as descriptors"@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0> ;
+  foaf:page <https://link.springer.com/content/pdf/10.1007/s11224-021-01869-w.pdf> .
+
+<file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1016/j.chemosphere.2018.11.014> a sbd:Dataset ;
+  dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
+  rdfs:label "Quasi-QSAR for predicting the cell viability of human lung and skin cells exposed to different metal oxide nanomaterials"@en ;
+  dct:license <https://www.elsevier.com/tdm/userlicense/1.0/> ;
+  foaf:page <http://dx.doi.org/10.1016/j.chemosphere.2018.11.014> .
+
+<file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1016/j.chemosphere.2019.125489> a sbd:Dataset ;
+  dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
+  rdfs:label "A unified in silico model based on perturbation theory for assessing the genotoxicity of metal oxide nanoparticles"@en ;
+  dct:license <https://www.elsevier.com/tdm/userlicense/1.0/> ;
+  foaf:page <http://dx.doi.org/10.1016/j.chemosphere.2019.125489> .
+
+<file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1016/j.chemosphere.2021.131452> a sbd:Dataset ;
+  dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
+  rdfs:label "Ecotoxicological read-across models for predicting acute toxicity of freshly dispersed versus medium-aged NMs to Daphnia magna"@en ;
+  dct:license <https://www.elsevier.com/tdm/userlicense/1.0/> ;
+  foaf:page <http://dx.doi.org/10.1016/j.chemosphere.2021.131452> .
+
+<file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1016/j.envint.2014.08.009> a sbd:Dataset ;
+  dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
+  rdfs:label "Computational ecotoxicology: Simultaneous prediction of ecotoxic effects of nanoparticles under different experimental conditions"@en ;
+  dct:license <https://www.elsevier.com/tdm/userlicense/1.0/> ;
+  foaf:page <http://dx.doi.org/10.1016/j.envint.2014.08.009> .
+
+<file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1016/j.fct.2017.08.008> a sbd:Dataset ;
+  dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
+  rdfs:label "Modelling the toxicity of a large set of metal and metal oxide nanoparticles using the OCHEM platform"@en ;
+  dct:license <https://www.elsevier.com/tdm/userlicense/1.0/> ;
+  foaf:page <http://dx.doi.org/10.1016/j.fct.2017.08.008> .
+
+<file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1016/j.impact.2021.100298> a sbd:Dataset ;
+  dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
+  rdfs:label "Use of size-dependent electron configuration fingerprint to develop general prediction models for nanomaterials"@en ;
+  dct:license <https://www.elsevier.com/tdm/userlicense/1.0/> ;
+  foaf:page <http://dx.doi.org/10.1016/j.impact.2021.100298> .
+
+<file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1016/j.impact.2021.100308> a sbd:Dataset ;
+  dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
+  rdfs:label "Computational enrichment of physicochemical data for the development of a ζ-potential read-across predictive model with Isalos Analytics Platform"@en ;
+  dct:license <https://www.elsevier.com/tdm/userlicense/1.0/> ;
+  foaf:page <http://dx.doi.org/10.1016/j.impact.2021.100308> .
+
+<file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1021/acs.chemrestox.7b00303> a sbd:Dataset ;
+  dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
+  rdfs:label "Quasi-SMILES-Based Nano-Quantitative Structure–Activity Relationship Model to Predict the Cytotoxicity of Multiwalled Carbon Nanotubes to Human Lung Cells"@en ;
+  dct:license <> ;
+  foaf:page <http://dx.doi.org/10.1021/acs.chemrestox.7b00303> .
+
+<file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1021/acs.est.1c01603> a sbd:Dataset ;
+  dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
+  rdfs:label "Prediction of Plant Uptake and Translocation of Engineered Metallic Nanoparticles by Machine Learning"@en ;
+  dct:license <https://doi.org/10.15223/policy-029> ;
+  foaf:page <http://dx.doi.org/10.1021/acs.est.1c01603> .
+
 <file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1021/acs.est.8b02757> a sbd:Dataset ;
   dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
   rdfs:label "Screening Priority Factors Determining and Predicting the Reproductive Toxicity of Various Nanoparticles"@en ;
   dct:license <> ;
   foaf:page <http://dx.doi.org/10.1021/acs.est.8b02757> .
+
+<file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1021/acs.jpcc.0c01195> a sbd:Dataset ;
+  dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
+  rdfs:label "Learning from the Machine: Uncovering Sustainable Nanoparticle Design Rules"@en ;
+  dct:license <https://doi.org/10.15223/policy-029> ;
+  foaf:page <http://dx.doi.org/10.1021/acs.jpcc.0c01195> .
+
+<file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1021/acsnano.8b07562> a sbd:Dataset ;
+  dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
+  rdfs:label "Meta-Analysis of Nanoparticle Cytotoxicity via Data-Mining the Literature"@en ;
+  dct:license <https://doi.org/10.15223/policy-029> ;
+  foaf:page <http://dx.doi.org/10.1021/acsnano.8b07562> .
+
+<file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1021/es503861x> a sbd:Dataset ;
+  dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
+  rdfs:label "Computational Tool for Risk Assessment of Nanomaterials: Novel QSTR-Perturbation Model for Simultaneous Prediction of Ecotoxicity and Cytotoxicity of Uncoated and Coated Nanoparticles under Multiple Experimental Conditions"@en ;
+  dct:license <> ;
+  foaf:page <http://dx.doi.org/10.1021/es503861x> .
+
+<file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1021/nn406018q> a sbd:Dataset ;
+  dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
+  rdfs:label "Protein Corona Fingerprinting Predicts the Cellular Interaction of Gold and Silver Nanoparticles"@en ;
+  dct:license <> ;
+  foaf:page <http://dx.doi.org/10.1021/nn406018q> .
+
+<file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1038/s41467-020-16413-3> a sbd:Dataset ;
+  dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
+  rdfs:label "Construction of a web-based nanomaterial database by big data curation and modeling friendly nanostructure annotations"@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0> ;
+  foaf:page <http://www.nature.com/articles/s41467-020-16413-3.pdf> .
 
 <file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1038/s41598-018-24483-z> a sbd:Dataset ;
   dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
@@ -31,11 +121,65 @@
   dct:license <https://creativecommons.org/licenses/by/4.0> ;
   foaf:page <http://www.nature.com/articles/s41598-018-24483-z.pdf> .
 
+<file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1039/c4nr01285b> a sbd:Dataset ;
+  dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
+  rdfs:label "Computer-aided nanotoxicology: assessing cytotoxicity of nanoparticles under diverse experimental conditions by using a novel QSTR-perturbation approach"@en ;
+  dct:license <> ;
+  foaf:page <http://dx.doi.org/10.1039/C4NR01285B> .
+
+<file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1039/c9nh00060g> a sbd:Dataset ;
+  dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
+  rdfs:label "Classifying and predicting the electron affinity of diamond nanoparticles using machine learning"@en ;
+  dct:license <http://rsc.li/journals-terms-of-use> ;
+  foaf:page <http://dx.doi.org/10.1039/C9NH00060G> .
+
+<file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1039/d0en01240h> a sbd:Dataset ;
+  dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
+  rdfs:label "Cytotoxicity analysis of nanoparticles by association rule mining"@en ;
+  dct:license <http://rsc.li/journals-terms-of-use> ;
+  foaf:page <http://dx.doi.org/10.1039/D0EN01240H> .
+
 <file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1073/pnas.1919755117> a sbd:Dataset ;
   dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
   rdfs:label "Machine learning predicts the functional composition of the protein corona and the cellular recognition of nanoparticles"@en ;
   dct:license <https://creativecommons.org/licenses/by-nc-nd/4.0/> ;
   foaf:page <http://dx.doi.org/10.1073/pnas.1919755117> .
+
+<file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1080/15363830701779315> a sbd:Dataset ;
+  dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
+  rdfs:label "A Molecular‐Based Model for Prediction of Solubility of C<sub>60</sub>Fullerene in Various Solvents"@en ;
+  dct:license <> ;
+  foaf:page <http://dx.doi.org/10.1080/15363830701779315> .
+
+<file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1080/17435390.2016.1278481> a sbd:Dataset ;
+  dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
+  rdfs:label "Application of Bayesian networks for hazard ranking of nanomaterials to support human health risk assessment"@en ;
+  dct:license <http://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+  foaf:page <https://www.tandfonline.com/doi/pdf/10.1080/17435390.2016.1278481> .
+
+<file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1080/17435390.2017.1379567> a sbd:Dataset ;
+  dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
+  rdfs:label "Probing the toxicity of nanoparticles: a unified <i>in silico</i> machine learning model based on perturbation theory"@en ;
+  dct:license <> ;
+  foaf:page <http://dx.doi.org/10.1080/17435390.2017.1379567> .
+
+<file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1080/17435390.2019.1595206> a sbd:Dataset ;
+  dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
+  rdfs:label "Application of Bayesian networks in determining nanoparticle-induced cellular outcomes using transcriptomics"@en ;
+  dct:license <http://creativecommons.org/licenses/by-nc-nd/4.0/> ;
+  foaf:page <https://tandfonline.com/doi/pdf/10.1080/17435390.2019.1595206> .
+
+<file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1080/17435390.2021.1872113> a sbd:Dataset ;
+  dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
+  rdfs:label "Machine learning predictions of concentration-specific aggregate hazard scores of inorganic nanomaterials in embryonic zebrafish"@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+  foaf:page <https://www.tandfonline.com/doi/abs/10.1080/17435390.2021.1872113> .
+
+<file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1111/risa.12109> a sbd:Dataset ;
+  dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
+  rdfs:label "A Meta-Analysis of Carbon Nanotube Pulmonary Toxicity Studies-How Physical Dimensions and Impurities Affect the Toxicity of Carbon Nanotubes"@en ;
+  dct:license <http://doi.wiley.com/10.1002/tdm_license_1.1> ;
+  foaf:page <http://dx.doi.org/10.1111/risa.12109> .
 
 <file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.1289/ehp6508> a sbd:Dataset ;
   dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
@@ -43,9 +187,33 @@
   dct:license <> ;
   foaf:page <http://dx.doi.org/10.1289/EHP6508> .
 
+<file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.3390/ijms21155280> a sbd:Dataset ;
+  dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
+  rdfs:label "Predicting In Vitro Neurotoxicity Induced by Nanoparticles Using Machine Learning"@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+  foaf:page <http://dx.doi.org/10.3390/ijms21155280> .
+
 <file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.3390/nano10102017> a sbd:Dataset ;
   dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
   rdfs:label "Predicting Cytotoxicity of Metal Oxide Nanoparticles Using Isalos Analytics Platform"@en ;
   dct:license <https://creativecommons.org/licenses/by/4.0/> ;
   foaf:page <http://dx.doi.org/10.3390/nano10102017> .
+
+<file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.3390/nano11071774> a sbd:Dataset ;
+  dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
+  rdfs:label "A Machine Learning Tool to Predict the Antibacterial Capacity of Nanoparticles"@en ;
+  dct:license <https://creativecommons.org/licenses/by/4.0/> ;
+  foaf:page <http://dx.doi.org/10.3390/nano11071774> .
+
+<file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.3762/bjnano.6.192> a sbd:Dataset ;
+  dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
+  rdfs:label "Predicting cytotoxicity of PAMAM dendrimers using molecular descriptors"@en ;
+  dct:license <http://creativecommons.org/licenses/by/2.0> ;
+  foaf:page <http://dx.doi.org/10.3762/bjnano.6.192> .
+
+<file:///home/runner/work/sbd-data-riskgone/sbd-data-riskgone/10.4018/ijqspr.20201001.oa2> a sbd:Dataset ;
+  dc:source <https://ammar257ammar.github.io/Nanosafety-data-reusability-34-datasets/> ;
+  rdfs:label "Development of Generalized QSAR Models for Predicting Cytotoxicity and Genotoxicity of Metal Oxides Nanoparticles"@en ;
+  dct:license <> ;
+  foaf:page <http://dx.doi.org/10.4018/IJQSPR.20201001.oa2> .
 
