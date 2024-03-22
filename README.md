@@ -1,4 +1,7 @@
-# sbd-data-nanocommons
+[![Extract Bioschemas](https://github.com/h2020-sbd4nano/sbd-data-riskgone/actions/workflows/extractBioschemas.yml/badge.svg)](https://github.com/h2020-sbd4nano/sbd-data-riskgone/actions/workflows/extractBioschemas.yml)
+
+# sbd-data-riskgone
+
 Import module for RiskGONE metadata: "Based on previous work of Irini Furxhi
 [https://doi.org/10.1016/j.impact.2021.100378](https://doi.org/10.1016/j.impact.2021.100378),
 a FAIR-based analysis for reusability has been conducted on 34 datasets from the nanosafety domain".
