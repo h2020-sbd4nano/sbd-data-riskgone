@@ -1,0 +1,25 @@
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sbd:   <https://www.sbd4nano.eu/rdf/#> .
+@prefix sbdbel:  <https://www.sbd4nano.eu/bel/#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix void:    <http://rdfs.org/ns/void#> .
+
+@prefix NP: <http://purl.bioontology.org/ontology/npo#NPO_707> .
+
+<https://riskgone.wp.nilu.no/tools/>
+ a                    void:DatasetDescription ;
+ dct:title            "RiskGONE Tools"@en ;
+ dct:license          <http://creativecommons.org/publicdomain/zero/1.0/> ;
+ dc:source            <https://www.enaloscloud.novamechanics.com/riskgone.html> ;
+ foaf:img             <https://riskgone.wp.nilu.no/wp-content/uploads/sites/11/2019/03/cropped-RISKGONE_Logo_96.png> .
+
+<https://enaloscloud.novamechanics.com/riskgone/nanoconstruct/> a sbd:Model ;
+  dc:source <https://riskgone.wp.nilu.no/tools/> ;
+  rdfs:label "NanoConstruct: Nanoparticle Construction Tool" ;
+  dc:description "NanoConstruct toolbox provides an end-to-end solution for nanoparticle modeling, effectively handling everything from data preparation and complex simulations to visualization and analysis."@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <https://enaloscloud.novamechanics.com/riskgone/nanoconstruct/> ;
+  sbdbel:NP NP: .
