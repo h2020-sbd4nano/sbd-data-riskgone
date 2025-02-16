@@ -23,3 +23,19 @@
   dct:license <http://example.com/unknown> ;
   foaf:page <https://enaloscloud.novamechanics.com/riskgone/nanoconstruct/> ;
   sbdbel:NP NP: .
+
+<https://www.enaloscloud.novamechanics.com/riskgone/InVitroDosimetry//> a sbd:Model ;
+  dc:source <https://riskgone.wp.nilu.no/tools/> ;
+  rdfs:label "RiskGONE in vitro dosimetry simulation" ;
+  dc:description "This web-service hosts the De Loid et al. multi-step in vitro dosimetry methodology to quantify delivered nanomaterials dose metrics as a function of time."@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <https://www.enaloscloud.novamechanics.com/riskgone/InVitroDosimetry/> ;
+  sbdbel:NP NP: .
+
+<https://www.enaloscloud.novamechanics.com/riskgone/EIA/> a sbd:Model ;
+  dc:source <https://riskgone.wp.nilu.no/tools/> ;
+  rdfs:label "RiskGONE Ethical Impact Assessment tools" ;
+  dc:description "The guidelines for Ethical Impact Assessment (EIA) are based on the CEN Workshop Agreement part 2 CWA 17145-2:2017 (E) (Link), and the development into guidelines for performing an EIA follows a stepwise approach."@en ;
+  dct:license <http://example.com/unknown> ;
+  foaf:page <https://www.enaloscloud.novamechanics.com/riskgone/EIA/> ;
+  sbdbel:NP NP: .
